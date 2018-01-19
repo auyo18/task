@@ -1,0 +1,316 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.4.1
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+:focus {
+    outline: 1;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+button{
+    border:0;
+    background-color: inherit;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    font-size: .24rem;
+}
+
+/*顶部*/
+.title {
+    color: rgba(255, 255, 255, 1);
+    height: .88rem;
+    line-height: .88rem;
+    background: rgba(95, 192, 205, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.title-text {
+    text-align: center;
+    font-size: .36rem;
+}
+
+.return {
+    display: inline-block;
+    width: .22rem;
+    height: .37rem;
+    position: absolute;
+    top: 50%;
+    left: .34rem;
+    margin-top: -.185rem;
+    background: url("return.png");
+    background-size: 100%;
+}
+
+/*顶部*/
+/*内容*/
+.centent {
+    margin: .88rem 0 1.5rem 0;
+}
+
+.banner {
+    position: relative;
+    background: url("banner.jpg") no-repeat;
+    background-size: 100%;
+    height: 3.26rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner-box {
+    position: absolute;
+    top: 50%;
+    margin-top: -.85rem;
+    left: .3rem;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 1.69rem;
+    height: 1.7rem;
+    background: url("avatar.png") no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+.introduction {
+    float: left;
+    margin-left: .4rem;
+    line-height: .5rem;
+}
+
+.introduction-big .name {
+    font-size: .42rem;
+}
+
+.introduction-big .age {
+    font-size: .36rem;
+}
+
+.introduction-sm {
+    font-size: .28rem;
+}
+
+.address {
+    display: inline-block;
+    width: .18rem;
+    height: .23rem;
+    background: url(shape.png) no-repeat;
+    background-size: 100%;
+}
+
+.address-text {
+    margin-left: .14rem;
+}
+
+.skill {
+    font-size: .32rem;
+}
+
+.skill-title, .label, .length, .time, .price {
+    padding: .25rem 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.self {
+    line-height: .5rem;
+    padding: .25rem 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.label, .length, .time, .price, .self {
+    margin-left: .3rem;
+}
+
+.skill-title {
+    position: relative;
+    padding-left: .6rem;
+}
+
+.skill-title:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -.13rem;
+    left: .3rem;
+    height: .26rem;
+    width: .03rem;
+    background: #5fc0cd;
+}
+
+.star {
+    display: inline-block;
+    width: .24rem;
+    height: .23rem;
+    margin-right: .09rem;
+    background: url("star.png") no-repeat;
+    background-size: 100%;
+}
+
+.line {
+    display: inline-block;
+    width: .01rem;
+    height: .26rem;
+    margin: 0 .26rem;
+    background: #e1e5e7;
+}
+
+.title-s {
+    color: #999999;
+}
+
+.self-title {
+    display: flex;
+    align-items: center;
+}
+
+.self-text {
+    display: flex;
+    -webkit-box-flex: 1;
+    align-items: center;
+    font-size: .28rem;
+    padding-right:.2rem;
+}
+
+.self {
+    display: -webkit-box;
+}
+
+.price-red {
+    color: #E26163;
+    font-weight: bold;
+}
+
+/*内容*/
+/*底部*/
+.footer {
+    padding: .05rem .34rem .2rem .34rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+
+.message, .phone {
+    display: inline-block;
+    font-size: .34rem;
+    width: 49%;
+    padding: .2rem 0;
+    text-align: center;
+    border-radius: .1rem;
+}
+
+.message {
+    color: #5FC0CD;
+    border: 2px solid #5FC0CD;
+    float: left;
+}
+
+.phone {
+    background-color: #5FC0CD;
+    color: white;
+    float: right;
+}
+
+/*底部*/
